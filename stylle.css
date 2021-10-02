@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 .header{
+    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
 }
 h1{
     font-size: 100px;
@@ -92,4 +92,22 @@ h1{
     justify-content: center;
     font-family: 'Architects Daughter', cursive;
     font-weight: 700;
+}
+#bookInfo{
+    height:200px;
+    position: relative;
+    top:500px;
+    margin: auto;
+    width:40%;
+    border: 1px solid rgb(182, 180, 180);
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.5);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    background: linear-gradient(rgba(228, 225, 225,0.4),rgba(211, 208, 208,0.4));
+}
+#bookInfo ul li{
+    align-items: center;
+    list-style: none;
+    font-family: sans-serif;
+    color:rgb(29, 108, 255);
 }

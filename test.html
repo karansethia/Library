@@ -5,11 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color: yellow;
+        }
+        #bookInfo{
+            margin: auto;
+            width:40%;
+            border: 1px solid rgb(182, 180, 180);
+            box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.5);
+            backdrop-filter: blur(8px);
+            border-radius: 20px;
+            background: linear-gradient(rgba(228, 225, 225,0.4),rgba(211, 208, 208,0.4));
+        }
+        #bookInfo ul li{
+            list-style: none;
+            font-family: sans-serif;
+            color:rgb(29, 108, 255);
+        }
+    </style>
 </head>
 <body>
     <input type="text" id="sample" placeholder="bookname">
     <input type="submit" value="submit"></input>
-    <script>
+    <div id="bookInfo">
+        <ul>
+            <li><h3>NAME: ${name}</h3></li>
+            <li><h3>GENRE: ${genre}</h3></li>
+            <li><h3>RATING: ${rating}</h3></li>
+        </ul>
+    </div>
+    <noscript>
         document.getElementById('sample').addEventListener('keyup', addbook);
     function addbook(event){
         // event.preventDefault();
@@ -19,6 +45,6 @@
     } 
     console.log('hi there');
 
-    </script>
+    </noscript>
 </body>
 </html>

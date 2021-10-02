@@ -25,30 +25,35 @@ function randomGenerator(min, max) {
       break;
   }
   //! Getting book name from user
-  document.getElementById('BookName').addEventListener('keyup',getBook);
-  function getBook(event){
-      if(event.keyCode===13){
-        let book = document.getElementById('BookName').value;
-        console.log(book);
-        return book;
-      } 
-  }
+  document.getElementById('BookName').addEventListener('keyup',getName);
+  
+  function getName(event){
+      if(event.keyCode === 13){
+    getBook();}
+}
 //   console.log(book);
   // ! Getting JSON file and searching for books
-  async function fetchBooks(){
-      const response = await fetch('librarybooks.json');
-      const Books = await response.json();
-      return Books;
+  function getBook(){
+    let book = document.getElementById('BookName').value;
+      fetch('librarybooks.json')
+      .then(res => res.json())
+      .then((Books) => {
+          Books.forEach(stack => {
+              if(stack["Name"] === book){
+                  console.log("success");
+                  console.log(book);
+                  document.getElementById('search-result').innerHTML= `<div id="bookInfo">
+                  <ul>
+                      <li><h3>NAME: ${stack["Name"]}</h3></li>
+                      <li><h3>GENRE: ${stack["Genre"]}</h3></li>
+                      <li><h3>RATING: ${stack["Rating"]}</h3></li>
+                  </ul>
+              </div>`
+              }
+              else{
+                  console.log("not found");
+              }
+          });
+      })
   }
-let myFunc = fetchBooks();
-myFunc.then((Books,book) => {
-    Books.forEach(stack => {
-        if(stack.Name==book){
-            console.log('success');
-        }
-        else{
-            console.log(book);
-            console.log('not found');
-        }
-    });
-})
+  
