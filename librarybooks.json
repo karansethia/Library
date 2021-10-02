@@ -1,0 +1,122 @@
+[
+    {
+        "Name" : "The Hunger Games",
+        "Genre" : "Fiction",
+        "Rating" : "4.28",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "Harry Potter",
+        "Genre" : "Fiction",
+        "Rating" : "4.88",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "Twilight",
+        "Genre" : "Fiction",
+        "Rating" : "3.78",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "The Chronicles of Narnia",
+        "Genre" : "Fiction",
+        "Rating" : "4.58",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "The Da Vinci Code",
+        "Genre" : "Fiction",
+        "Rating" : "3.78",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "The Dairy of a Young Girl",
+        "Genre" : "History",
+        "Rating" : "4.08",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "1776",
+        "Genre" : "History",
+        "Rating" : "4.15",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "The Reader",
+        "Genre" : "History",
+        "Rating" : "4.77",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "The Godfather",
+        "Genre" : "Mystery",
+        "Rating" : "4.35",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "Gone Girl",
+        "Genre" : "Mystery",
+        "Rating" : "4.09",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "Red Dragon",
+        "Genre" : "Mystery",
+        "Rating" : "4.03",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "Lord of the Flies",
+        "Genre" : "Horror",
+        "Rating" : "3.69",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "Angels and Demons",
+        "Genre" : "Thriller",
+        "Rating" : "3.91",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "The Murder of Roger Ackroyd",
+        "Genre" : "Thriller",
+        "Rating" : "4.24",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "It",
+        "Genre" : "Horror",
+        "Rating" : "4.24",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "Ender's Game",
+        "Genre" : "Thriller",
+        "Rating" : "4.56",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "Lord of the Rings",
+        "Genre" : "Fantasy",
+        "Rating" : "4.50",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "Data Structures in Java",
+        "Genre" : "Horror",
+        "Rating" : "4.28",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "The Hobbit",
+        "Genre" : "Fiction",
+        "Rating" : "4.28",
+        "Book Cover" : ""
+    },
+    {
+        "Name" : "Landfalls",
+        "Genre" : "Adventure",
+        "Rating" : "4.28",
+        "Book Cover" : ""
+    }
+]

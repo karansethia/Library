@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+}
+h1{
+    font-size: 100px;
+    font-family: 'Fredoka One', cursive;
+    /* color: linear-gradient(-45deg,#567462,#FBD786,#f7797d); */
+    /* color: linear-gradient(red,blue); */
+    background: linear-gradient(
+            to right, #a8c0ff,#3f2b96);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-size: 200% 200%;
+        position: relative;
+        animation: change 4s ease-in-out infinite;
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    33%{
+        background-position: 33% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    66%{
+        background-position: 33% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.text-box{
+    width: 90%;
+    color:aliceblue;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search-box input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.5);
+    border: none;
+    /* border-top: 1px solid rgba(255,255,255,0.5); */
+    /* border-left: 1px solid rgba(255,255,255,0.5); */
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    text-align:center;
+}
+.search-box{
+    width: 40%;
+    background: transparent;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.search-box img{
+    position: absolute;
+    padding: 10px;
+    left: 2%;
+    height: 50px;
+}
+#myQuote{
+    margin: auto;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+}
+.quote{
+    margin-top: 80px;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 700;
+}
