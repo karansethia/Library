@@ -42,12 +42,15 @@ function randomGenerator(min, max) {
               if(stack["Name"] === book){
                   console.log("success");
                   console.log(book);
-                  document.getElementById('search-result').innerHTML= `<div id="bookInfo">
+                  document.getElementById('search-result').innerHTML= `<div id="result">
+                  <div id="bookInfo">
                   <ul>
                       <li><h3>NAME: ${stack["Name"]}</h3></li>
                       <li><h3>GENRE: ${stack["Genre"]}</h3></li>
                       <li><h3>RATING: ${stack["Rating"]}</h3></li>
                   </ul>
+              </div>
+              <div id="bookImg"></div>
               </div>`
               }
               else{

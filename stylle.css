@@ -93,7 +93,8 @@ h1{
     font-family: 'Architects Daughter', cursive;
     font-weight: 700;
 }
-#bookInfo{
+#result{
+    display: flex;
     height:200px;
     position: relative;
     top:500px;
@@ -103,11 +104,22 @@ h1{
     box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.5);
     backdrop-filter: blur(8px);
     border-radius: 20px;
-    background: linear-gradient(rgba(228, 225, 225,0.4),rgba(211, 208, 208,0.4));
+    background: rgba(255,255,255,0.1);
 }
 #bookInfo ul li{
+    padding: 10px;
+    margin: 10px 10px 10px 20px;
     align-items: center;
     list-style: none;
     font-family: sans-serif;
-    color:rgb(29, 108, 255);
+    color:rgb(255, 255, 255);
+}
+#bookInfo{
+    background-color: cadetblue;
+    width: 60%;
+}
+#bookImg{
+    background-color: blue;
+    height: 100%;
+    width: 40%;
 }
