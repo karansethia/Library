@@ -46,5 +46,26 @@
     console.log('hi there');
 
     </noscript>
+    <noscript>
+        if(stack["Name"] === book){
+            console.log("success");
+            console.log(book);
+            document.getElementById('search-result').innerHTML= `<div id="result">
+            <div id="bookInfo">
+            <ul>
+                <li><h3>NAME: ${stack["Name"]}</h3></li>
+                <li><h3>GENRE: ${stack["Genre"]}</h3></li>
+                <li><h3>RATING: ${stack["Rating"]}</h3></li>
+            </ul>
+        </div>
+        <div id="bookImg">
+        <img src="${stack["Book Cover"]}" height="150px" width="100px">
+        </div>
+        </div>`
+        }
+        else{
+            console.log("not found");
+        }
+    </noscript>
 </body>
 </html>

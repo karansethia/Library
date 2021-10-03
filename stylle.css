@@ -115,11 +115,28 @@ h1{
     color:rgb(255, 255, 255);
 }
 #bookInfo{
-    background-color: cadetblue;
-    width: 60%;
+    /* background-color: cadetblue; */
+    width: 70%;
 }
 #bookImg{
-    background-color: blue;
+    /* background-color: blue; */
     height: 100%;
-    width: 40%;
+    width: 30%;
+}
+#bookImg img{
+    margin: 20px 50px 10px 30px;
+}
+.result {
+   flex-direction: column; 
+   /* justify-content: center; */
+   text-align: center;
+   /* align-content: center; */
+}
+.result h2{
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+.result p{
+    padding-top: 30px;
+    font-family: sans-serif;
 }

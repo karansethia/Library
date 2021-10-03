@@ -3,126 +3,114 @@
         "Name" : "The Hunger Games",
         "Genre" : "Fiction",
         "Rating" : "4.28",
-        "Book Cover" : ""
+        "Book Cover" : "./images/hungergames.jpeg"
     },
     {
         "Name" : "Harry Potter",
         "Genre" : "Fiction",
         "Rating" : "4.88",
-        "Book Cover" : ""
+        "Book Cover" : "./images/harrypotter.png"
     },
     {
         "Name" : "Twilight",
         "Genre" : "Fiction",
         "Rating" : "3.78",
-        "Book Cover" : ""
+        "Book Cover" : "./images/Twilightbook.jpeg"
     },
     {
         "Name" : "The Chronicles of Narnia",
         "Genre" : "Fiction",
         "Rating" : "4.58",
-        "Book Cover" : ""
+        "Book Cover" : "./images/narnia.jpeg"
     },
     {
         "Name" : "The Da Vinci Code",
         "Genre" : "Fiction",
         "Rating" : "3.78",
-        "Book Cover" : ""
+        "Book Cover" : "./images/DaVinciCode.jpeg"
     },
     {
         "Name" : "The Dairy of a Young Girl",
         "Genre" : "History",
         "Rating" : "4.08",
-        "Book Cover" : ""
+        "Book Cover" : "./images/diaryofgirl.jpeg"
     },
     {
         "Name" : "1776",
         "Genre" : "History",
         "Rating" : "4.15",
-        "Book Cover" : ""
+        "Book Cover" : "./images/1776.jpeg"
     },
     {
         "Name" : "The Reader",
         "Genre" : "History",
         "Rating" : "4.77",
-        "Book Cover" : ""
+        "Book Cover" : "./images/reader.jpeg"
     },
     {
         "Name" : "The Godfather",
         "Genre" : "Mystery",
         "Rating" : "4.35",
-        "Book Cover" : ""
+        "Book Cover" : "./images/thegodfather.png"
     },
     {
         "Name" : "Gone Girl",
         "Genre" : "Mystery",
         "Rating" : "4.09",
-        "Book Cover" : ""
+        "Book Cover" : "./images/Gonegirl.jpeg"
     },
     {
         "Name" : "Red Dragon",
         "Genre" : "Mystery",
         "Rating" : "4.03",
-        "Book Cover" : ""
+        "Book Cover" : "./images/Reddragon.jpeg"
     },
     {
         "Name" : "Lord of the Flies",
         "Genre" : "Horror",
         "Rating" : "3.69",
-        "Book Cover" : ""
+        "Book Cover" : "./images/LordOfTheFlies.jpeg"
     },
     {
         "Name" : "Angels and Demons",
         "Genre" : "Thriller",
         "Rating" : "3.91",
-        "Book Cover" : ""
+        "Book Cover" : "./images/AngelsAndDemons.jpeg"
     },
     {
         "Name" : "The Murder of Roger Ackroyd",
         "Genre" : "Thriller",
         "Rating" : "4.24",
-        "Book Cover" : ""
+        "Book Cover" : "./images/murderofroger.jpeg"
     },
     {
         "Name" : "It",
         "Genre" : "Horror",
         "Rating" : "4.24",
-        "Book Cover" : ""
+        "Book Cover" : "./images/hungergames.jpeg"
     },
     {
         "Name" : "Ender's Game",
         "Genre" : "Thriller",
         "Rating" : "4.56",
-        "Book Cover" : ""
+        "Book Cover" : "./images/it.jpeg"
     },
     {
         "Name" : "Lord of the Rings",
         "Genre" : "Fantasy",
         "Rating" : "4.50",
-        "Book Cover" : ""
-    },
-    {
-        "Name" : "Data Structures in Java",
-        "Genre" : "Horror",
-        "Rating" : "4.28",
-        "Book Cover" : ""
+        "Book Cover" : "./images/lordofrings.gif"
     },
     {
         "Name" : "The Hobbit",
         "Genre" : "Fiction",
         "Rating" : "4.28",
-        "Book Cover" : ""
+        "Book Cover" : "./images/hobbit.png"
     },
     {
         "Name" : "Landfalls",
         "Genre" : "Adventure",
         "Rating" : "4.28",
-        "Book Cover" : ""
-    },
-    {
-        "Name" : "hello",
-        "Genre" : "Adventure",
-        "Rating" : "4.28",
-        "Book Cover" : ""
+        "Book Cover" : "./images/landfall.png"
     }
 ]

@@ -39,24 +39,35 @@ function randomGenerator(min, max) {
       .then(res => res.json())
       .then((Books) => {
           Books.forEach(stack => {
-              if(stack["Name"] === book){
-                  console.log("success");
-                  console.log(book);
-                  document.getElementById('search-result').innerHTML= `<div id="result">
-                  <div id="bookInfo">
-                  <ul>
-                      <li><h3>NAME: ${stack["Name"]}</h3></li>
-                      <li><h3>GENRE: ${stack["Genre"]}</h3></li>
-                      <li><h3>RATING: ${stack["Rating"]}</h3></li>
-                  </ul>
-              </div>
-              <div id="bookImg"></div>
-              </div>`
-              }
-              else{
-                  console.log("not found");
+              switch(stack["Name"] === book){
+                case true:
+                    console.log("success");
+            console.log(book);
+            document.getElementById('search-result').innerHTML= `<div id="result">
+            <div id="bookInfo">
+            <ul>
+                <li><h3>NAME: ${stack["Name"]}</h3></li>
+                <li><h3>GENRE: ${stack["Genre"]}</h3></li>
+                <li><h3>RATING: ${stack["Rating"]}</h3></li>
+            </ul>
+        </div>
+        <div id="bookImg">
+        <img src="${stack["Book Cover"]}" height="150px" width="100px">
+        </div>
+        </div>`
+        break;
+        case false:
+        return n = 0;   
               }
           });
+          console.log(n);
+        //   if(n === 0){
+        //       console.log("not found");
+        //       document.getElementById('search-result').innerHTML=`<div id="result" class="result">
+        //       <h2>Sorry</h2>
+        //       <p>The Book you've been looking for is not found</p>
+        //       </div>`;
+        //   };
       })
   }
   
