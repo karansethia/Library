@@ -133,6 +133,7 @@ h1{
 }
 #bookImg img{
     margin: 20px 50px 10px 30px;
+    border-radius: 5px;
 }
 .result {
    flex-direction: column; 

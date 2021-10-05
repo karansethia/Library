@@ -9,6 +9,11 @@
         body{
             background-color: yellow;
         }
+        #fade{
+            left: -40px;
+            position: relative;
+            z-index: 1;
+        }
         #bookInfo{
             margin: auto;
             width:40%;
@@ -28,13 +33,14 @@
 <body>
     <input type="text" id="sample" placeholder="bookname">
     <input type="submit" value="submit"></input>
-    <div id="bookInfo">
+    <button id="fade" type="submit">Hi World</button>
+    <!-- <div id="bookInfo">
         <ul>
             <li><h3>NAME: ${name}</h3></li>
             <li><h3>GENRE: ${genre}</h3></li>
             <li><h3>RATING: ${rating}</h3></li>
         </ul>
-    </div>
+    </div> -->
     <noscript>
         document.getElementById('sample').addEventListener('keyup', addbook);
     function addbook(event){
