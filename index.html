@@ -17,11 +17,36 @@
             <div id="myQuote"></div>
         </div>
         <div id="search-box">  
-                <input type="text" name="" id="BookName" placeholder="Search for Books">
+                <input type="text" autocomplete="off" id="BookName" placeholder="Search for Books">
             <img src="search.ico"/>
         </div>
         <div id="search-result"></div>
-        <div id="publish-btn" ><button class="btn">PUBLISH THIS BOOK</button></div>
+        <div id="publish-btn" style="display: none;" ><button class="btn" id="goto-btn">PUBLISH THIS BOOK</button></div>
+    </section>
+    <section class="header2">
+        <div class="row">
+            <div class="second-sec">
+                <div id="publish-form" class="login-box">
+                    <form action="" method="post">
+                        <div class="user-box">
+                            <input autocomplete="off" type="text" name="name" required>
+                            <label for="">Your Name</label>
+                        </div>
+                        <div class="user-box">
+                            <input autocomplete="off" type="email" name="email" required>
+                            <label for="">Your Email</label>
+                        </div>
+                        <div class="user-box">
+                            <input autocomplete="off" type="text" name="university" required>
+                            <label for="">Your University</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="second-sec">
+                <img src="./images/undraw_book_lover_mkck.svg"  id="illus">
+            </div>
+        </div>
     </section>
     <script src="app.js"></script>
 </body>

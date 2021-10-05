@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        html{
+            scroll-behavior: smooth;
+        }
         body{
             background-color: yellow;
         }
@@ -33,7 +36,12 @@
 <body>
     <input type="text" id="sample" placeholder="bookname">
     <input type="submit" value="submit"></input>
+    <input type="button" onClick="document.getElementById('myDiv').scrollIntoView();" placeholder="hi karan"/>
     <button id="fade" type="submit">Hi World</button>
+    <div style="height: 500px; width:80%; background-color: lawngreen; border: 1px solid lightcoral;"></div>
+    <div style="height: 500px; width:80%; background-color: lawngreen; border: 1px solid lightcoral;"></div>
+    <div style="height: 500px; width:80%; background-color: lawngreen; border: 1px solid lightcoral;"></div>
+    <div id="myDiv" style="height: 500px; width:80%; background-color: lawngreen; border: 1px solid lightcoral;"></div>
     <!-- <div id="bookInfo">
         <ul>
             <li><h3>NAME: ${name}</h3></li>

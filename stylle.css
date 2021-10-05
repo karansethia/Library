@@ -4,6 +4,9 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .header{
     background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
     min-height: 100vh;
@@ -169,3 +172,78 @@ h1{
     font-family: sans-serif;
     color: azure;
 }
+.header2{
+    background-image: linear-gradient(to bottom, #ebc0fd 0%, #d9ded8 100%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    display: flex;
+}
+.second-sec{
+    width: 50%;
+    height: 700px;
+    margin: 50px 10px 50px 10px;
+}
+#illus{
+    transform: translateX(-200px);
+    height: 700px;
+}
+.login-box {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(158, 91, 245, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+  
+.login-box .user-box {
+    position: relative;
+}
+  
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+  
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #7921cc;
+    font-size: 12px;
+  }
+.login-box .user-box input[type=text]:active{
+    background-color: rgba(158, 91, 245, 0.1);
+    border-radius: 5px;
+}
+
+  
+

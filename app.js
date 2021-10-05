@@ -31,7 +31,7 @@ function randomGenerator(min, max) {
       if(event.keyCode === 13){
         document.getElementById('myQuote').style.display = 'none';
         document.getElementById('text-box').style.top = '20%';
-        document.getElementById('search-box').style.animation = 'upward-fade 3s ease-in-out forwards';
+        document.getElementById('search-box').style.animation = 'upward-fade 1s ease-in-out forwards';
     getBook();}
 }
 //   console.log(book);
@@ -64,13 +64,18 @@ function randomGenerator(min, max) {
         <div id="bookImg">
         <img src="${found[0]["Book Cover"]}" height="150px" width="100px">
         </div>
-        </div>`
+        </div>`;
+        document.getElementById('publish-btn').style.display = 'block';
           }else{
             document.getElementById('search-result').innerHTML= `<div id="result" class="result">
             <h2>Sorry</h2>
             <p>The Book was not found</p>
-            </div>`;
+            </div>`
+            document.getElementById('publish-btn').style.display = 'none';;
           }
       })
   }
-  
+document.getElementById('goto-btn').addEventListener('click',toForm);
+function toForm(){
+    document.getElementById('publish-form').scrollIntoView();
+}
