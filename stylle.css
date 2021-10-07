@@ -173,6 +173,7 @@ h1{
     color: azure;
 }
 .header2{
+    overflow: hidden;
     background-image: linear-gradient(to bottom, #ebc0fd 0%, #d9ded8 100%);
     min-height: 100vh;
     width: 100%;
@@ -244,6 +245,12 @@ h1{
     background-color: rgba(158, 91, 245, 0.1);
     border-radius: 5px;
 }
-
-  
+#form-btn{
+    /* top: 650px; */
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 700px;
+}
 

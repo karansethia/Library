@@ -34,7 +34,6 @@ function randomGenerator(min, max) {
         document.getElementById('search-box').style.animation = 'upward-fade 1s ease-in-out forwards';
     getBook();}
 }
-//   console.log(book);
   // ! Getting JSON file and searching for books
   function getBook(){
     let book = document.getElementById('BookName').value;
@@ -78,4 +77,34 @@ function randomGenerator(min, max) {
 document.getElementById('goto-btn').addEventListener('click',toForm);
 function toForm(){
     document.getElementById('publish-form').scrollIntoView();
+}
+document.getElementById('publish').addEventListener('click',addDetail);
+function addDetail(e){
+    e.preventDefault();
+    addDetails();
+}
+function addDetails(){
+    let name = document.getElementById('user_name').value;
+    let email = document.getElementById('user_email').value;
+    let uni = document.getElementById('user_uni').value;
+    class userDetails {
+        constructor(Name, Email, University) {
+            this.Name = Name;
+            this.Email = Email;
+            this.University = University;
+        }
+    }
+    Details = new userDetails(name,email,uni);
+    console.log(Details);
+    fetch('librarybooks.json',{
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json, text/plain, */*',
+            'Content-type': 'application/json'
+        },
+        body: JSON.stringify({Reader:Details})
+    })
+    .then(res => res.json())
+    .then(data => console.log(data))
+
 }
